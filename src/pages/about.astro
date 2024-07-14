@@ -1,0 +1,281 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+
+const currentYear = new Date().getFullYear();
+const startMIAGEMonth = 'Septembre';
+const startMIAGE = 2023;
+const endMIAGEMonth = currentYear >= startMIAGE + 2 ? 'Juin' : 'Présent';
+const endMIAGE = currentYear >= startMIAGE + 2 ? startMIAGE + 2 : 'Présent';
+const startLicenceMonth = 'Septembre';
+const startLicence = 2018;
+const endLicenceMonth = 'Juin';
+const endLicence = 2023;
+const bacYear = 2016;
+const hostStartMonth = 'Septembre';
+const hostStartYear = 2019;
+const hostEndMonth = 'Septembre';
+const hostEndYear = 'Présent';
+---
+
+<BaseLayout title="About | Mehdi Hamiche" description="About Mehdi Hamiche">
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="About"
+        tagline="Merci de vous arrêter. Lisez ci-dessous pour en savoir plus sur moi et mon parcours."
+      >
+        <img
+          width="1553"
+          height="873"
+          src="/assets/at-work.jpg"
+          alt="Mehdi Hamiche at work"
+        />
+      </Hero>
+
+      <section>
+        <h2 class="section-title">Parcours</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">{startMIAGEMonth} {startMIAGE} - {endMIAGE}</div>
+            <div class="timeline-content">
+              <h3>Master MIAGE</h3>
+              <p>Université Paris Cité - UFR Mathématiques et Informatique, Paris</p>
+              <br>
+              <p>
+                <strong>Compétences acquises:</strong>
+                <ul>
+                  <li>Gestion de projets informatiques</li>
+                  <li>Développement logiciel avancé</li>
+                  <li>Analyse et conception de systèmes d'information</li>
+                  <li>Base de données et big data</li>
+                  <li>Business Intelligence et prise de décision</li>
+                </ul>
+              </p>
+              <br>
+              <p>
+                Je suis actuellement étudiant en Master MIAGE à l'Université Paris Cité, où je me spécialise dans le développement logiciel, l'analyse de données et la gestion de projet. Passionné par l'informatique et les nouvelles technologies, j'apprécie particulièrement de travailler sur des projets innovants et stimulants.
+              </p>
+              <br>
+              <p>
+                Au fil de mes études et de mes projets personnels, j'ai acquis une solide expérience en développement web, en développement mobile et en gestion de bases de données. Je suis constamment à la recherche de nouvelles opportunités pour enrichir mes compétences et relever de nouveaux défis.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">{hostStartMonth} {hostStartYear} - {hostEndYear}</div>
+            <div class="timeline-content">
+              <h3>Hôte d'Accueil</h3>
+              <p>Basic Fit, Aubervilliers</p>
+              <br>
+              <p>
+								<strong>Responsabilités:</strong>
+								<ul>
+									<li>Accueillir et orienter les clients</li>
+									<li>Fournir des informations sur les services et les installations</li>
+									<li>Assister les clients avec leurs abonnements et les paiements</li>
+									<li>Maintenir un environnement propre et organisé à la réception</li>
+								</ul>
+							</p>
+							<br>
+							<p>
+								<strong>Compétences acquises:</strong>
+								<ul>
+									<li>Compétences en communication efficace</li>
+									<li>Gestion des visiteurs et des clients</li>
+									<li>Organisation et gestion du temps</li>
+								</ul>
+							</p>
+							<br>
+							<p>
+								Cette expérience chez Basic Fit m'a permis de développer des compétences essentielles en service à la clientèle et en gestion administrative. J'ai appris à gérer efficacement les tâches multiples tout en maintenant un haut niveau de professionnalisme. Mon rôle m'a également aidé à améliorer mes compétences en communication, en m'assurant que chaque client se sente accueilli et bien informé. Cette expérience est une base solide pour mes futures opportunités professionnelles.
+							</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">{startLicenceMonth} {startLicence} - {endLicenceMonth} {endLicence}</div>
+            <div class="timeline-content">
+              <h3>Licence Informatique</h3>
+              <p>Université Paris Cité - UFR Mathématiques et Informatique, Paris</p>
+              <br>
+              <p>
+                <strong>Compétences acquises:</strong>
+                <ul>
+                  <li>Programmation en Java, Python, et C++</li>
+                  <li>Développement web avec HTML, CSS, et JavaScript</li>
+                  <li>Algorithmes et structures de données</li>
+                  <li>Gestion de bases de données</li>
+                  <li>Introduction à l'intelligence artificielle et à la robotique</li>
+                </ul>
+              </p>
+              <br>
+              <p>
+                Pendant ma Licence, j'ai développé une base solide en informatique, en passant par la programmation, le développement web, et la gestion de bases de données. J'ai également eu l'opportunité d'explorer des domaines comme l'intelligence artificielle et la robotique.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">{bacYear}</div>
+            <div class="timeline-content">
+              <h3>Baccalauréat</h3>
+              <p>Lycée Henri Wallon, Aubervilliers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Diplômes</h2>
+        <div class="content">
+          <p><strong>Master MIAGE</strong> (en cours, BAC +4 actuellement, BAC +5 en cours)</p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Compétences</h2>
+        <div class="content">
+          <p>Curieux, Créatif, Autonome, Organisé, Dynamique, Polyvalent, Travail d'équipe</p>
+        </div>
+      </section>
+    </main>
+
+    <ContactCTA />
+  </div>
+</BaseLayout>
+
+<style>
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
+
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
+
+  .content {
+    grid-column: 2 / 4;
+  }
+
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
+
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--gray-800);
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+  }
+
+  .timeline-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--accent-dark);
+  }
+
+  .timeline-date {
+    font-size: var(--text-md);
+    color: var(--accent-dark);
+    margin-bottom: 5px;
+  }
+
+  .timeline-content {
+    background: var(--gray-900);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
+
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
+
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
+</style>
+
+<script>
+  // Fonction pour gérer l'observation des éléments de la timeline
+  function handleIntersection(entries, observer) {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }
+
+  // Configuration de l'observer
+  const options = {
+    threshold: 0.5, // L'élément est visible à 50%
+  };
+
+  const observer = new IntersectionObserver(handleIntersection, options);
+
+  // Observez chaque élément de la timeline
+  document.querySelectorAll('.timeline-item').forEach((item) => {
+    observer.observe(item);
+  });
+</script>
