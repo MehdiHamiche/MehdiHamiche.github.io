@@ -1,5 +1,5 @@
 ---
-title: Projet de Création de Tournoi League of Legends
+title: Création de Tournoi League of Legends
 publishDate: 2024-07-03
 img: /assets/league-of-legends-tournament.jpg
 img_alt: Capture d'écran du tournoi League of Legends
@@ -21,7 +21,7 @@ tags:
 
 ## Introduction
 
-Dans le cadre de mon Master MIAGE à l'Université Paris Cité, j'ai eu l'opportunité de travailler sur un projet de création d'un tournoi pour le célèbre jeu en ligne **League of Legends**. Ce projet m'a permis de développer mes compétences en développement logiciel, gestion de bases de données, et gestion de projet.
+J'ai travaillé sur un projet de création d'un tournoi pour le célèbre jeu en ligne **League of Legends**. Ce projet m'a permis de développer mes compétences en développement logiciel, gestion de bases de données, et gestion de projet.
 
 <br>
 <br>

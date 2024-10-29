@@ -1,5 +1,5 @@
 ---
-title: Projet d'Analyse de Données sur les Ventes de Jeux Vidéo
+title: Analyse de Données sur les Ventes de Jeux Vidéo
 publishDate: 2024-07-06
 img: /assets/videogame-sales-analysis/videogame-sales-analysis.jpg
 img_alt: Graphique montrant les ventes de jeux vidéo
@@ -20,7 +20,7 @@ tags:
 
 ## Introduction
 
-Dans le cadre de mon Master MIAGE à l'Université Paris Cité, j'ai eu l'opportunité de travailler sur un projet d'analyse de données portant sur les ventes de jeux vidéo. Ce projet m'a permis de développer mes compétences en analyse de données et en visualisation, ainsi que d'approfondir ma compréhension du marché des jeux vidéo.
+J'ai travaillé sur un projet d'analyse de données portant sur les ventes de jeux vidéo. Ce projet m'a permis de développer mes compétences en analyse de données et en visualisation, ainsi que d'approfondir ma compréhension du marché des jeux vidéo.
 
 <br>
 <br>

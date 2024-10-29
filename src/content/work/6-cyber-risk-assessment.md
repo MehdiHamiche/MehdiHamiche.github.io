@@ -1,5 +1,5 @@
 ---
-title: Projet d'Évaluation de Risques Cyber
+title: Évaluation de Risques Cyber
 publishDate: 2024-07-05
 img: /assets/cyber-risk-assessment/cyber-risk-assessment.jpg
 img_alt: Graphique montrant une évaluation de risques cyber
@@ -20,7 +20,7 @@ tags:
 
 ## Introduction
 
-Dans le cadre de mon Master MIAGE à l'Université Paris Cité, j'ai réalisé un projet d'évaluation des risques cyber. Ce projet avait pour objectif d'identifier et d'analyser les vulnérabilités potentielles dans les systèmes d'information de différents secteurs d'activité, de simuler des attaques, et de générer des rapports détaillés. Les données utilisées proviennent des techniques MITRE ATT&CK, qui fournissent des informations détaillées sur les tactiques, techniques et procédures (TTP) des cyberattaquants.
+J'ai réalisé un projet d'évaluation des risques cyber, ayant pour objectif d'identifier et d'analyser les vulnérabilités potentielles dans les systèmes d'information de différents secteurs d'activité, de simuler des attaques, et de générer des rapports détaillés. Les données utilisées proviennent des techniques MITRE ATT&CK, qui fournissent des informations détaillées sur les tactiques, techniques et procédures (TTP) des cyberattaquants.
 
 <br>
 <br>

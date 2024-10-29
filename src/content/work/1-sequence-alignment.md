@@ -23,7 +23,7 @@ tags:
 
 ## Introduction
 
-Dans le cadre de mon cursus à l'Université Paris Cité - UFR Mathématiques et Informatiques, j'ai participé au développement d'un outil d'alignement de séquences en bioinformatique. Ce projet avait pour objectif d'implémenter des techniques d'alignement global, multiple et local pour l'analyse de séquences biologiques. Les différents algorithmes utilisés permettent la recherche des fonctions biologiques, de la phylogénie moléculaire, du séquençage de génome, etc.
+J'ai participé au développement d'un outil d'alignement de séquences en bioinformatique. Ce projet avait pour objectif d'implémenter des techniques d'alignement global, multiple et local pour l'analyse de séquences biologiques. Les différents algorithmes utilisés permettent la recherche des fonctions biologiques, de la phylogénie moléculaire, du séquençage de génome, etc.
 
 <br>
 <br>

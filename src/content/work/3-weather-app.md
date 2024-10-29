@@ -1,5 +1,5 @@
 ---
-title: Projet de Création d'une Application Météo pour Événements Extrêmes
+title: Création d'une Application Météo pour Événements Extrêmes
 publishDate: 2024-07-04
 img: /assets/weather-app/weather-app.png
 img_alt: Capture d'écran de l'application météo pour événements extrêmes
@@ -20,7 +20,7 @@ tags:
 
 ## Introduction
 
-Dans le cadre de mon Master MIAGE à l'Université Paris Cité, j'ai eu l'opportunité de développer une application mobile dédiée à fournir des prévisions météo spécifiques pour les événements extrêmes. Ce projet m'a permis d'approfondir mes compétences en développement mobile et en gestion de projets.
+J'ai développé une application mobile dédiée à fournir des prévisions météo spécifiques pour les événements extrêmes. Ce projet m'a permis d'approfondir mes compétences en développement mobile et en gestion de projets.
 
 <br>
 <br>

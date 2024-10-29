@@ -21,7 +21,7 @@ tags:
 
 ## Introduction
 
-Dans le cadre de mon cursus à l'Université Paris Cité - UFR Mathématiques et Informatiques, j'ai participé au développement de l'application mobile Kourte. Ce projet avait pour objectif de créer une application de traçage de trajets pour les utilisateurs d'Android, permettant de suivre et d'enregistrer leurs déplacements de manière précise et détaillée.
+J'ai participé au développement de l'application mobile Kourte. Ce projet avait pour objectif de créer une application de traçage de trajets pour les utilisateurs d'Android, permettant de suivre et d'enregistrer leurs déplacements de manière précise et détaillée.
 
 <br>
 <br>
